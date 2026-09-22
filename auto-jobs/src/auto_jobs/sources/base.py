@@ -10,9 +10,13 @@ def strip_html(html: str) -> str:
 
 
 def matches_search(job: JobPosting, search: SearchConfig) -> bool:
-    haystack = f"{job.title} {job.location} {job.description_text}".lower()
+    # Palavra-chave é checada só no título: descrições longas mencionam termos
+    # como "analytics"/"machine learning" de passagem em vagas completamente
+    # não relacionadas (ex: Account Executive de um produto de analytics),
+    # o que gera falsos positivos se buscarmos no texto inteiro.
+    title = job.title.lower()
 
-    if search.keywords and not any(k.lower() in haystack for k in search.keywords):
+    if search.keywords and not any(k.lower() in title for k in search.keywords):
         return False
 
     if search.locations and not any(
@@ -20,7 +24,7 @@ def matches_search(job: JobPosting, search: SearchConfig) -> bool:
     ):
         return False
 
-    if any(k.lower() in haystack for k in search.exclude_keywords):
+    if any(k.lower() in title for k in search.exclude_keywords):
         return False
 
     return True
