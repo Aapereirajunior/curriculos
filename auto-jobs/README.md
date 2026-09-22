@@ -26,6 +26,11 @@ vagas, o que torna a busca segura e estável (sem scraping frágil).
   Fiocruz). Para essas vagas, use `tailor_application()` manualmente (cole a
   descrição da vaga) para gerar currículo/carta adaptados, mas a busca e o
   envio automáticos deste projeto não alcançam esses portais.
+- **Indeed, LinkedIn Jobs e Glassdoor bloqueiam acesso automatizado**
+  (retornam HTTP 403/999 a requisições de bot) — testado na prática. Sites
+  agregadores como Jooble costumam responder, mas isso é para pesquisa
+  manual pontual (ex: pedir para o assistente de IA buscar "vagas X em Y"),
+  não algo que este projeto automatiza de forma recorrente/confiável.
 
 ## Como funciona
 

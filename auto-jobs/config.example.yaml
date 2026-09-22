@@ -2,16 +2,22 @@
 
 search:
   keywords:
-    - "data scientist"
-    - "data science"
+    - "data scien"        # casa "data scientist"/"data science"/"cientista de dados"
+    - "data engineer"
     - "epidemiolog"       # casa com "epidemiologia"/"epidemiologist"
     - "biostatistic"
     - "public health"
-    - "cientista de dados"
+    - "analytics"
+    - "machine learning"
+  # A busca casa a keyword só no TÍTULO da vaga (não na descrição inteira),
+  # para evitar falsos positivos (ex: uma vaga de vendas que só menciona
+  # "analytics" de passagem no corpo do texto).
   locations:
     - "Remote"
     - "Brazil"
+    - "Brasil"          # a API de algumas empresas BR retorna "Brasil", não "Brazil"
     - "Rio de Janeiro"
+    - "United States"   # ajuste/remova conforme sua disposição a trabalhar para empresas dos EUA
   exclude_keywords:
     - "senior staff"
     - "principal"
@@ -30,10 +36,17 @@ search:
 # currículo/carta adaptados a partir da descrição da vaga colada manualmente.
 companies:
   greenhouse:
-    - example-empresa-1
-    - example-empresa-2
+    - flatironhealth      # Flatiron Health (dados oncológicos/saúde, EUA)
+    - truveta              # Truveta (dados de saúde + IA/ML, EUA)
+    - komodohealth          # Komodo Health (analytics em saúde, EUA)
+    - honor                 # Honor (cuidado domiciliar, EUA, tem vaga remota)
+    - carrotfertility       # Carrot Fertility (benefícios de saúde reprodutiva, EUA remoto)
+    - quintoandar            # QuintoAndar (proptech BR, vagas de Data Scientist/Engineer remoto no Brasil)
+    - cortex                 # Cortex Intelligence (dados/analytics BR, remoto)
+    - kunumi                 # Kunumi (IA BR, remoto no Brasil)
   lever:
-    - example-empresa-3
+    - includedhealth        # Included Health (analytics em saúde, EUA)
+    - ro                    # Ro (telessaúde, EUA)
 
 candidate:
   full_name: "Antonio Alves Pereira Júnior"
