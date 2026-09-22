@@ -85,6 +85,18 @@ def render_resume_docx(base_resume: dict, tailored: TailoredApplication, out_dir
         for pres in presentations:
             doc.add_paragraph(pres, style="List Bullet")
 
+    academic_supervision = base_resume.get("academic_supervision", [])
+    if academic_supervision:
+        doc.add_heading("Orientação e Supervisão Acadêmica", level=1)
+        for item in academic_supervision:
+            doc.add_paragraph(item, style="List Bullet")
+
+    awards = base_resume.get("awards", [])
+    if awards:
+        doc.add_heading("Prêmios e Menções Honrosas", level=1)
+        for award in awards:
+            doc.add_paragraph(award, style="List Bullet")
+
     languages = base_resume.get("languages", [])
     if languages:
         doc.add_heading("Idiomas", level=1)
