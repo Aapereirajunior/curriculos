@@ -42,7 +42,6 @@ companies:
     - honor                 # Honor (cuidado domiciliar, EUA, tem vaga remota)
     - carrotfertility       # Carrot Fertility (benefícios de saúde reprodutiva, EUA remoto)
     - quintoandar            # QuintoAndar (proptech BR, vagas de Data Scientist/Engineer remoto no Brasil)
-    - cortex                 # Cortex Intelligence (dados/analytics BR, remoto)
     - kunumi                 # Kunumi (IA BR, remoto no Brasil)
   lever:
     - includedhealth        # Included Health (analytics em saúde, EUA)
