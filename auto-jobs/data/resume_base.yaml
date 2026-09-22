@@ -27,6 +27,8 @@ contact:
   github: "https://github.com/aapereirajunior"
   lattes: "http://lattes.cnpq.br/4247489534693174"
   orcid: "https://orcid.org/0000-0002-6484-6991"
+  scopus_author_id: "57218118879"
+  researcher_id: "JBJ-2184-2023"
 
 skills:
   # Dados e tecnologia
@@ -128,13 +130,24 @@ certifications:
   - "Iniciação em Ciência em Animais de Laboratório (ICTB/Fiocruz, 30h)"
   - "Ferramentas de bioinformática aplicadas à saúde (FeSBE, 2020)"
 
+# Lista de artigos verificada diretamente no ORCID (0000-0002-6484-6991),
+# com DOI — use esta lista como a fonte precisa de publicações indexadas.
 publications:
-  - "Pereira-Júnior AA; Lima FHDM; Martins IF; Silva RSF; Lucas EPR. Reducing time in lethality assay (LD50) for Bothrops jararaca and Crotalus durissus terrificus venoms. Toxicon, v. 262, 2025."
-  - "Bacellar DTL; Silva CS; Pereira-Júnior AA; et al. Diphtheria antitoxin potency assay: an in vitro alternative to the in vivo subcutaneous toxin neutralization test. Biologicals, v. 93, 2025."
+  - "Bacellar DTL, Silva CS, Pereira-Júnior AA, Correa de Moura W, Villas-Boas MHS, Mattos-Guaraldi AL. Diphtheria antitoxin potency assay: an in vitro alternative to the in vivo subcutaneous toxin neutralization test. Biologicals, 2026-02. DOI: 10.1016/j.biologicals.2025.101870"
+  - "Pereira-Júnior AA, Lima FHD, Martins IF, Fructuoso da Silva RS, Reis Lucas EP. Reducing time in lethality assay (LD50) for Bothrops jararaca and Crotalus durissus terrificus venoms and lethality neutralizing assay (ED50) for their respective antivenoms: A 3Rs-based retrospective data validation. Toxicon, 2025-07. DOI: 10.1016/j.toxicon.2025.108358"
+  - "Silva AO, Ribeiro JM, Patrocínio TB, Amorim GES, Pereira-Júnior AA, et al. Protective Effects of Kefir Against Unpredictable Chronic Stress Alterations in Mice Central Nervous System, Heart, and Kidney. Probiotics and Antimicrobial Proteins, 2023-04. DOI: 10.1007/s12602-022-10031-9"
+  - "Pereira Júnior AA, Amorim GES, Garcia RCT, Ribeiro JM, Silva AO, et al. Nicotine exposure through breastfeeding affects brain-derived neurotrophic factor and synaptic proteins levels in the brain of stressed adult female mice. International Journal of Developmental Neuroscience, 2022-12. DOI: 10.1002/jdn.10227"
+  - "Almeida CAF, Pereira-Junior AA, Rangel JG, Pereira BP, Costa KCM, et al. Ayahuasca, a psychedelic beverage, modulates neuroplasticity induced by ethanol in mice. Behavioural Brain Research, 2022-01. DOI: 10.1016/j.bbr.2021.113546"
+  - "Antimicrobial stewardship for surgical antibiotic prophylaxis and surgical site infections: a systematic review. International Journal of Clinical Pharmacy, 2021-11. DOI: 10.1007/s11096-021-01358-4"
+  - "Souza MM, Vechiato FMV, Debarba LK, Leao RM, Dias MVS, Pereira AA, Cruz JC, Elias LLK, Antunes-Rodrigues J, Ruginsk SG. Effects of hyperosmolality on hypothalamic astrocytic area, mRNA expression and glutamate balance in vitro. Neuroscience, 2020-06. DOI: 10.1016/j.neuroscience.2020.06.029"
+
+# Apresentações em congressos, pôsteres e outras produções técnicas (não
+# indexadas com DOI, mas mencionadas no currículo consolidado).
+presentations:
   - "Apresentação oral — MEDTROP 2025: \"Tendência da letalidade por acidentes ofídicos no Brasil (2007-2024) e projeções frente à meta 2030 da OMS\"."
   - "Pôster — 13º World Congress on Alternatives and Animal Use (2025): \"A methodological approach for animal testing refinement validation using retrospective data analysis\"."
   - "Apresentação — 9º International Symposium on Immunobiologicals (2025): \"Immunobiological surveillance of antivenom immunoglobulin use in brazilian venomous animal accidents\"."
-  - "Autor/coautor de 7 artigos completos em periódicos indexados (Toxicon, Biologicals, Behavioural Brain Research, International Journal of Developmental Neuroscience, Neuroscience, International Journal of Clinical Pharmacy, Probiotics and Antimicrobial Proteins), 2 resumos expandidos e mais de 45 resumos/apresentações em congressos — mais de 60 produções científicas e técnicas no total."
+  - "Mais de 45 resumos/apresentações em congressos nacionais e internacionais e 18 Procedimentos Operacionais Padrão institucionais (INCQS/Fiocruz) — mais de 60 produções científicas e técnicas no total."
 
 languages:
   - "Português (nativo)"

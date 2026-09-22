@@ -79,6 +79,12 @@ def render_resume_docx(base_resume: dict, tailored: TailoredApplication, out_dir
         for pub in publications:
             doc.add_paragraph(pub, style="List Bullet")
 
+    presentations = base_resume.get("presentations", [])
+    if presentations:
+        doc.add_heading("Apresentações e Congressos", level=1)
+        for pres in presentations:
+            doc.add_paragraph(pres, style="List Bullet")
+
     languages = base_resume.get("languages", [])
     if languages:
         doc.add_heading("Idiomas", level=1)
