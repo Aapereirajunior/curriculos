@@ -1,0 +1,42 @@
+# Currículo base estruturado. O "tailor" usa isso + a descrição da vaga
+# para gerar uma versão adaptada para cada candidatura.
+
+full_name: "Seu Nome"
+title: "Software Engineer"
+summary: >
+  Engenheiro de software com experiência em desenvolvimento backend,
+  APIs REST e sistemas distribuídos. Descreva aqui seu resumo profissional
+  em 2-4 frases.
+
+contact:
+  email: "seu.email@example.com"
+  phone: "+55 11 90000-0000"
+  location: "São Paulo, Brasil"
+  linkedin: "https://linkedin.com/in/seu-usuario"
+  github: "https://github.com/seu-usuario"
+
+skills:
+  - Python
+  - JavaScript/TypeScript
+  - SQL
+  - Docker
+  - AWS
+
+experience:
+  - company: "Empresa Exemplo"
+    role: "Software Engineer"
+    start: "2022-01"
+    end: "presente"
+    bullets:
+      - "Descreva uma conquista mensurável (ex: reduziu latência em 30%)."
+      - "Descreva outra responsabilidade ou entrega relevante."
+
+education:
+  - institution: "Sua Universidade"
+    degree: "Bacharelado em Ciência da Computação"
+    start: "2018"
+    end: "2021"
+
+languages:
+  - "Português (nativo)"
+  - "Inglês (avançado)"

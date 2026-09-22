@@ -1,0 +1,10 @@
+.env
+config.yaml
+data/resume_base.yaml.local
+data/applications.db
+data/generated/
+data/screenshots/
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/

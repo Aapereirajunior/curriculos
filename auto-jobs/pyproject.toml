@@ -1,0 +1,27 @@
+[project]
+name = "auto-jobs"
+version = "0.1.0"
+description = "Automação de busca de vagas, adaptação de currículo com IA e envio de candidaturas"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31",
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0",
+    "anthropic>=0.40",
+    "python-docx>=1.1",
+    "playwright>=1.45",
+    "click>=8.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+auto-jobs = "auto_jobs.cli:cli"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

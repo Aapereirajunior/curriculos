@@ -1,0 +1,43 @@
+# Copie este arquivo para config.yaml e ajuste com seus dados.
+
+search:
+  keywords:
+    - "software engineer"
+    - "backend developer"
+  locations:
+    - "Remote"
+    - "Brazil"
+  exclude_keywords:
+    - "senior staff"
+    - "principal"
+  max_results_per_company: 20
+
+# Empresas a monitorar. Descubra o "token"/"slug" de cada uma na URL da
+# página de vagas hospedada (ex: https://boards.greenhouse.io/<token>
+# ou https://jobs.lever.co/<token>).
+companies:
+  greenhouse:
+    - airbnb
+    - stripe
+  lever:
+    - netflix
+
+candidate:
+  full_name: "Seu Nome"
+  email: "seu.email@example.com"
+  phone: "+55 11 90000-0000"
+  linkedin_url: "https://linkedin.com/in/seu-usuario"
+  resume_path: "data/resume_base.yaml"
+  resume_file_to_upload: "data/resume_base.docx"
+
+application:
+  # Modo de envio: "auto" envia direto, "review" só prepara e aguarda aprovação
+  mode: "auto"
+  dry_run: true          # enquanto true, preenche o formulário mas NÃO clica em enviar
+  max_applications_per_run: 10
+  cover_letter: true
+  default_answers:
+    # Respostas padrão para perguntas de triagem comuns (case-insensitive, match parcial)
+    "authorized to work": "Yes"
+    "require sponsorship": "No"
+    "years of experience": "3"
