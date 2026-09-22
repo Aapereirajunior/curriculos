@@ -2,11 +2,16 @@
 
 search:
   keywords:
-    - "software engineer"
-    - "backend developer"
+    - "data scientist"
+    - "data science"
+    - "epidemiolog"       # casa com "epidemiologia"/"epidemiologist"
+    - "biostatistic"
+    - "public health"
+    - "cientista de dados"
   locations:
     - "Remote"
     - "Brazil"
+    - "Rio de Janeiro"
   exclude_keywords:
     - "senior staff"
     - "principal"
@@ -15,18 +20,26 @@ search:
 # Empresas a monitorar. Descubra o "token"/"slug" de cada uma na URL da
 # página de vagas hospedada (ex: https://boards.greenhouse.io/<token>
 # ou https://jobs.lever.co/<token>).
+#
+# NOTA: Greenhouse/Lever são fortes em vagas de tecnologia/dados, mas
+# organismos como OPAS/OMS, ONU e a própria Fiocruz normalmente NÃO usam
+# esses ATS — eles publicam vagas em portais próprios (ex: careers.who.int,
+# paho.org/jobs, concursos Fiocruz). Para essas vagas, o "search"/"run"
+# automatizado deste projeto não alcança; é preciso buscar e aplicar
+# manualmente, mas ainda dá pra usar `tailor_application()` para gerar o
+# currículo/carta adaptados a partir da descrição da vaga colada manualmente.
 companies:
   greenhouse:
-    - airbnb
-    - stripe
+    - example-empresa-1
+    - example-empresa-2
   lever:
-    - netflix
+    - example-empresa-3
 
 candidate:
-  full_name: "Seu Nome"
-  email: "seu.email@example.com"
-  phone: "+55 11 90000-0000"
-  linkedin_url: "https://linkedin.com/in/seu-usuario"
+  full_name: "Antonio Alves Pereira Júnior"
+  email: "aapereirajunior@gmail.com"
+  phone: "(21) 99427-1238"
+  linkedin_url: "https://linkedin.com/in/biomedicoantonio"
   resume_path: "data/resume_base.yaml"
   resume_file_to_upload: "data/resume_base.docx"
 

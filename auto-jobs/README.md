@@ -16,9 +16,16 @@ vagas, o que torna a busca segura e estável (sem scraping frágil).
 - Automação de candidaturas em **LinkedIn/Indeed não é suportada** aqui de
   propósito: exige login e viola os Termos de Uso dessas plataformas,
   podendo levar ao banimento da sua conta.
-- Este repositório é privado, mas `data/resume_base.yaml` e `config.yaml`
-  conterão seus dados pessoais depois de preenchidos — não torne o repo
-  público sem remover/gitignorar esses arquivos.
+- Este repositório é privado, mas `data/resume_base.yaml`, `data/resume_base.docx`
+  e `config.yaml` já contêm/conterão seus dados pessoais reais (nome, e-mail,
+  telefone, Lattes, ORCID) — não torne o repo público sem remover/gitignorar
+  esses arquivos.
+- Greenhouse/Lever são fortes em vagas de tecnologia. Organismos como
+  **OPAS/OMS, ONU e a própria Fiocruz normalmente não usam esses ATS** —
+  publicam em portais próprios (careers.who.int, paho.org/jobs, concursos
+  Fiocruz). Para essas vagas, use `tailor_application()` manualmente (cole a
+  descrição da vaga) para gerar currículo/carta adaptados, mas a busca e o
+  envio automáticos deste projeto não alcançam esses portais.
 
 ## Como funciona
 

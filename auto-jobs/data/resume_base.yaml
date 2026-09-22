@@ -1,42 +1,142 @@
-# Currículo base estruturado. O "tailor" usa isso + a descrição da vaga
-# para gerar uma versão adaptada para cada candidatura.
+# Currículo base estruturado (dados reais). A IA usa este arquivo + a
+# descrição de cada vaga para gerar uma versão adaptada da candidatura,
+# sem inventar fatos novos — apenas reordenando/priorizando o que está aqui.
+#
+# ATENÇÃO: este arquivo contém dados pessoais reais. Como o repositório é
+# privado isso é aceitável, mas nunca torne o repositório público sem antes
+# remover ou criptografar este arquivo.
 
-full_name: "Seu Nome"
-title: "Software Engineer"
+full_name: "Antonio Alves Pereira Júnior"
+title: "Biomédico | Cientista de Dados | Doutorando em Epidemiologia em Saúde Pública"
 summary: >
-  Engenheiro de software com experiência em desenvolvimento backend,
-  APIs REST e sistemas distribuídos. Descreva aqui seu resumo profissional
-  em 2-4 frases.
+  Biomédico e Mestre em Ciências Farmacêuticas, doutorando em Epidemiologia em
+  Saúde Pública (ENSP/Fiocruz) e especialista em formação em Informática em
+  Saúde (UNIFESP). Atua desde 2021 no INCQS/Fiocruz no controle de qualidade
+  de imunobiológicos (vacinas e soros hiperimunes) sob ISO/IEC 17025,
+  combinando rigor regulatório com ciência de dados aplicada — incluindo o
+  desenvolvimento ponta a ponta de sistemas próprios em R/Shiny para
+  automação de análises laboratoriais. Também atua em docência e preceptoria
+  em saúde pública e bioestatística, e possui produção científica de mais de
+  60 itens, incluindo artigos em periódicos internacionais.
 
 contact:
-  email: "seu.email@example.com"
-  phone: "+55 11 90000-0000"
-  location: "São Paulo, Brasil"
-  linkedin: "https://linkedin.com/in/seu-usuario"
-  github: "https://github.com/seu-usuario"
+  email: "aapereirajunior@gmail.com"
+  phone: "(21) 99427-1238"
+  location: "Rio de Janeiro, RJ (Grajaú)"
+  linkedin: "https://linkedin.com/in/biomedicoantonio"
+  github: "https://github.com/aapereirajunior"
+  lattes: "http://lattes.cnpq.br/4247489534693174"
+  orcid: "https://orcid.org/0000-0002-6484-6991"
 
 skills:
+  # Dados e tecnologia
   - Python
-  - JavaScript/TypeScript
+  - R
   - SQL
-  - Docker
-  - AWS
+  - DuckDB (Big Data / consultas otimizadas)
+  - Shiny (dashboards e apps web em R)
+  - Git / GitHub
+  - RStudio / VS Code
+  - LaTeX / Zotero
+  - GraphPad Prism
+  - Machine Learning e modelagem preditiva aplicada à saúde
+  # Saúde, regulação e laboratório
+  - Vigilância Sanitária e regulação (ANVISA, OMS/WLA, conceitos de Reliance)
+  - Sistemas de gestão da qualidade laboratorial (ABNT NBR ISO/IEC 17025)
+  - Controle de qualidade de imunobiológicos (vacinas e soros hiperimunes)
+  - Ensaios de potência e toxicológicos (ELISA, ToBi, in vivo, DL50/ED50)
+  - Princípios dos 3Rs (Refinamento, Redução, Substituição) em experimentação animal
+  - Epidemiologia e bioestatística (modelos DLNM, estudos caso-cruzado)
+  - Técnicas de imunoensaio e biologia molecular (ELISA, Western blot, dot-blot, eletroforese, cultura celular)
+  # Soft skills
+  - Tradução de conceitos técnicos complexos para públicos não especializados
+  - Coordenação de estudos colaborativos multicêntricos/internacionais
+  - Docência e preceptoria de profissionais de saúde
 
 experience:
-  - company: "Empresa Exemplo"
-    role: "Software Engineer"
-    start: "2022-01"
+  - company: "INCQS/Fiocruz — Controle de Qualidade"
+    role: "Analista de Controle da Qualidade em Saúde (Setor de Soros Antipeçonhentos e Vacinas Bacterianas)"
+    start: "2021-02"
     end: "presente"
     bullets:
-      - "Descreva uma conquista mensurável (ex: reduziu latência em 30%)."
-      - "Descreva outra responsabilidade ou entrega relevante."
+      - "Operação do sistema de gestão da qualidade laboratorial sob ABNT NBR ISO/IEC 17025, assegurando rastreabilidade e conformidade documental dos ensaios de controle de imunobiológicos fornecidos ao PNI/SUS."
+      - "Autoria e controle de 18 Procedimentos Operacionais Padrão (POP) institucionais, cobrindo fluxo de amostras, ensaios de potência (ELISA, ToBi, in vivo), calibração/qualificação de equipamentos e guarda de padrões de referência."
+      - "Gestão e guarda dos padrões de referência nacional (venenos botrópico e crotálico), assegurando condições de armazenamento, identidade e rastreabilidade das amostras."
+      - "Validação de métodos analíticos e implementação de métodos alternativos in vitro (princípios 3Rs) para ensaios de potência de soros e vacinas, com redução do tempo de ensaio e ganho de robustez — publicado em Toxicon e Biologicals (2025)."
+      - "Coordenação e participação em estudo colaborativo latino-americano (PANAFTOSA/OPAS, 7 países) de neutralização cruzada de soros antipeçonhentos, incluindo avaliação in loco em instituições como o Instituto Butantan."
+      - "Investigação de eventos adversos pós-vacinais e articulação técnica com produtores nacionais e internacionais de imunobiológicos."
+      - "Criador do sistema \"BioPotency\": aplicação web full-stack em R/Shiny para automação de análises de probitos, traduzindo metodologias analíticas complexas em dashboards e relatórios que aceleram o controle de qualidade."
+
+  - company: "INCQS/Fiocruz — Preceptoria"
+    role: "Preceptor, Residência Multiprofissional em Vigilância Sanitária e Saúde Pública"
+    start: "2021"
+    end: "presente"
+    bullets:
+      - "Supervisão e orientação técnico-científica de residentes de pós-graduação, com acompanhamento de projetos aplicados e desenvolvimento de competências profissionais em saúde pública."
+      - "Orientação de 3 monografias de especialização concluídas e 1 em andamento (metrologia, validação e refinamento de ensaios), e participação em 3 bancas examinadoras de defesa (2024-2025)."
+
+  - company: "ENSP–INI/Fiocruz"
+    role: "Docente Colaborador — Estatística Aplicada à Pesquisa em Saúde (Estágio em Docência do doutorado)"
+    start: "2025-06"
+    end: "2026-06"
+    bullets:
+      - "Lecionou a disciplina de pós-graduação stricto sensu \"Estatística Aplicada à Pesquisa em Saúde\" para turma de aproximadamente 35 alunos, sob supervisão da Profa. Dra. Raquel de Vasconcellos Carvalhaes de Oliveira."
+      - "Condução de monitorias práticas em Estatística e no software R, com elaboração prévia de scripts e resolução guiada de exercícios aplicados à pesquisa em saúde."
+      - "Capacitação de pesquisadores de pós-graduação na tradução de grandes volumes de dados complexos em informação qualificada, com foco no impacto clínico e na melhoria do cuidado."
+
+  - company: "IVISA-Rio / SMS-Rio"
+    role: "Residente — Vigilância Sanitária (Residência Multiprofissional)"
+    start: "2022-06"
+    end: "2022-12"
+    bullets:
+      - "Realização de inspeções sanitárias in loco em serviços e ambientes de saúde, com verificação de conformidade a normativas e identificação de não conformidades."
+      - "Atuação técnica direta na rede da SMS-Rio (Saúde Carioca), no mapeamento de riscos e planejamento em saúde na maior rede pública da América Latina."
+
+  - company: "UNIFAL/MG"
+    role: "Estágios em Análises Clínicas e Imunologia / Monitor de Disciplinas de Graduação"
+    start: "2014"
+    end: "2018"
+    bullets:
+      - "Estágios em análises clínicas e imunologia (LACIC/UNIFAL e Hospital Santa Rosália): técnicas de imunoensaio e biologia molecular — ELISA, Western blot, dot-blot, eletroforese, purificação de proteínas/anticorpos e cultura celular."
+      - "Monitor bolsista e voluntário em Políticas e Práticas em Saúde Coletiva, Hematologia Clínica e Bioquímica Clínica — elaboração de material de apoio e suporte pedagógico a estudantes de graduação."
+      - "Orientação de 2 iniciações científicas de graduandos em Farmácia (bolsas FAPEMIG/CNPq, 2020)."
 
 education:
-  - institution: "Sua Universidade"
-    degree: "Bacharelado em Ciência da Computação"
+  - institution: "Escola Nacional de Saúde Pública Sergio Arouca (ENSP/Fiocruz)"
+    degree: "Doutorado em Epidemiologia em Saúde Pública"
+    start: "2024"
+    end: "presente (previsão 2027)"
+  - institution: "Universidade Federal de São Paulo (UNIFESP)"
+    degree: "Especialização em Informática em Saúde (520h) — tecnologias aplicadas à gestão da informação e de sistemas em saúde, analytics e Big Data"
+    start: "2025"
+    end: "presente (previsão 2027)"
+  - institution: "Universidade Federal de Alfenas (UNIFAL/MG)"
+    degree: "Mestrado em Ciências Farmacêuticas (bioquímica/farmacologia; validação de métodos e controle de qualidade laboratorial)"
     start: "2018"
     end: "2021"
+  - institution: "Universidade Federal de Alfenas (UNIFAL/MG)"
+    degree: "Graduação em Biomedicina"
+    start: "2014"
+    end: "2018"
+
+certifications:
+  - "ABNT NBR ISO/IEC 17025 — competência de laboratórios de ensaio"
+  - "Regulamentações Sanitárias e Metrologia"
+  - "Biossegurança"
+  - "Métodos alternativos ao uso de animais de laboratório (ICTB/Fiocruz, 45h)"
+  - "Capacitação no Uso e Manejo de Animais de Laboratório (USP, 15h)"
+  - "Iniciação em Ciência em Animais de Laboratório (ICTB/Fiocruz, 30h)"
+  - "Ferramentas de bioinformática aplicadas à saúde (FeSBE, 2020)"
+
+publications:
+  - "Pereira-Júnior AA; Lima FHDM; Martins IF; Silva RSF; Lucas EPR. Reducing time in lethality assay (LD50) for Bothrops jararaca and Crotalus durissus terrificus venoms. Toxicon, v. 262, 2025."
+  - "Bacellar DTL; Silva CS; Pereira-Júnior AA; et al. Diphtheria antitoxin potency assay: an in vitro alternative to the in vivo subcutaneous toxin neutralization test. Biologicals, v. 93, 2025."
+  - "Apresentação oral — MEDTROP 2025: \"Tendência da letalidade por acidentes ofídicos no Brasil (2007-2024) e projeções frente à meta 2030 da OMS\"."
+  - "Pôster — 13º World Congress on Alternatives and Animal Use (2025): \"A methodological approach for animal testing refinement validation using retrospective data analysis\"."
+  - "Apresentação — 9º International Symposium on Immunobiologicals (2025): \"Immunobiological surveillance of antivenom immunoglobulin use in brazilian venomous animal accidents\"."
+  - "Autor/coautor de 7 artigos completos em periódicos indexados (Toxicon, Biologicals, Behavioural Brain Research, International Journal of Developmental Neuroscience, Neuroscience, International Journal of Clinical Pharmacy, Probiotics and Antimicrobial Proteins), 2 resumos expandidos e mais de 45 resumos/apresentações em congressos — mais de 60 produções científicas e técnicas no total."
 
 languages:
   - "Português (nativo)"
   - "Inglês (avançado)"
+  - "Espanhol (intermediário)"

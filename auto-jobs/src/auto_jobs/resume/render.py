@@ -24,6 +24,19 @@ def render_resume_docx(base_resume: dict, tailored: TailoredApplication, out_dir
     if contact_line:
         doc.add_paragraph(contact_line)
 
+    links_line = " | ".join(
+        v
+        for v in [
+            contact.get("linkedin"),
+            contact.get("github"),
+            contact.get("lattes"),
+            contact.get("orcid"),
+        ]
+        if v
+    )
+    if links_line:
+        doc.add_paragraph(links_line)
+
     doc.add_heading("Resumo", level=1)
     doc.add_paragraph(tailored.summary or base_resume.get("summary", ""))
 
@@ -53,6 +66,18 @@ def render_resume_docx(base_resume: dict, tailored: TailoredApplication, out_dir
                 f"{edu.get('degree', '')} — {edu.get('institution', '')} "
                 f"({edu.get('start', '')} - {edu.get('end', '')})"
             )
+
+    certifications = base_resume.get("certifications", [])
+    if certifications:
+        doc.add_heading("Certificações", level=1)
+        for cert in certifications:
+            doc.add_paragraph(cert, style="List Bullet")
+
+    publications = base_resume.get("publications", [])
+    if publications:
+        doc.add_heading("Produção Científica", level=1)
+        for pub in publications:
+            doc.add_paragraph(pub, style="List Bullet")
 
     languages = base_resume.get("languages", [])
     if languages:
